@@ -27,7 +27,7 @@ export interface SqlCommandResponse {
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private apiUrl = 'http://localhost:3000/api';  // Asegúrate de que este URL sea el correcto para tu API
+  private apiUrl = '/api';  // Asegúrate de que este URL sea el correcto para tu API
 
   constructor(private http: HttpClient) { }
 
